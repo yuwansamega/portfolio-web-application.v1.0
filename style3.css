@@ -1,0 +1,25 @@
+.jumbotron {
+  background-color: #fafafa;
+  padding-top: 6rem;
+}
+#about {
+  background-color: #212529;
+}
+
+#contact {
+  background-color: #212529;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+i {
+  font-size: 2rem;
+  color: #212529;
+}
+
+@font-face {
+  font-family: 'tommy';
+  src: url('font/MADE\ Tommy\ Soft\ Bold\ PERSONAL\ USE.otf');
+}
