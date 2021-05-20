@@ -7,8 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Custom Css -->
-    <link rel="stylesheet" href="style3.css" />
+    <link rel="stylesheet" href="style.css" />
     <!-- Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
     <!-- Google Font -->
@@ -52,7 +56,7 @@
     <section class="jumbotron text-center">
       <img src="img/yuwan5.png" alt="Yuwan Samega" width="150" class="rounded-circle img-thumbnail shadow-sm mb-4" />
       <h1 class="display-4" style="font-family: 'Rubik', sans-serif; font-weight: 400">Yuwan Samega</h1>
-      <p class="lead" style="font-family: 'Montserrat', sans-serif">College Student | Developer</p>
+      <p class="lead" style="font-family: 'Montserrat', sans-serif"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#212529"
@@ -68,17 +72,17 @@
       <div class="container text-light">
         <div class="row text-center mb-4">
           <div class="col">
-            <h2 style="font-family: 'Rubik', sans-serif">About Me</h2>
+            <h2 style="font-family: 'Rubik', sans-serif" data-aos="fade-in">About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5" style="text-align: justify; font-family: 'Montserrat', sans-serif">
-          <div class="col-sm-4 mb-4">
+          <div class="col-sm-4 mb-4" data-aos="fade-up-right" data-aos-delay="100">
             Hi ini Yuwan, Saya sangat menyukai pemrograman seperti software, website dan lainnya tetapi saya lebih menyukai pemrograman pada software. Perkembangan aplikasi saat ini telah memasuki tahap dimana orang-orang diluar sana
-            berlomba-lomba dalam menciptakan inovasi masa depan. hal tersebutlah yang membuat saya ingin berkontribusi dalam menciptakan sebuah mahakarya yang dapat dilihat oleh dunia
+            berlomba-lomba dalam menciptakan inovasi masa depan. hal tersebutlah yang membuat saya ingin berkontribusi dalam menciptakan sebuah mahakarya yang
           </div>
-          <div class="col-sm-4">
-            Berada ditengah-tengah hasil dari perkembangan inovasi teknologi yang diciptakan manusia membuat saya tidak sabar untuk menantikannya. Saya ditakdirkan untuk membuat hal itu terjadi. Saya memiliki dasar dari skill-skill yang
-            dibutuhkan. Saya tidak sabar untuk dapat bekerja sama dalam menciptakan teknologi masa depan yang dibutuhkan manusia.
+          <div class="col-sm-4" data-aos="fade-up-left" data-aos-delay="200">
+            dapat dilihat oleh dunia. Berada ditengah-tengah hasil dari perkembangan inovasi teknologi yang diciptakan manusia membuat saya tidak sabar untuk menantikannya. Saya ditakdirkan untuk membuat hal itu terjadi. Saya memiliki dasar
+            dari skill-skill yang dibutuhkan. Saya tidak sabar untuk dapat bekerja sama dalam menciptakan teknologi masa depan yang dibutuhkan manusia.
           </div>
         </div>
       </div>
@@ -97,13 +101,18 @@
       <div class="container">
         <div class="row text-center mb-4">
           <div class="col">
-            <h2 style="font-family: 'Rubik', sans-serif">My Projects</h2>
+            <h2 style="font-family: 'Rubik', sans-serif" data-aos="fade-in">My Projects</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-6">
-            <div class="card shadow-sm">
-              <img src="img/sipeta.PNG" class="card-img-top" alt="Project Sipeta" />
+            <div class="card shadow-sm card_projects" data-aos="fade-up" data-aos-delay="100">
+              <img src="img/sipeta.PNG" class="card-img-top img_card" alt="Project Sipeta" />
+              <a href="http://if.ilkom.unsri.ac.id/sipeta/" target="_blank">
+                <div class="text_overlay text_overlay--blur">
+                  <i class="bi bi-box-arrow-up-right icon_overlay" aria-label="Go to SIPETA"></i>
+                </div>
+              </a>
               <div class="card-body">
                 <h5 class="card-title text-center mt-3" style="font-family: 'Montserrat', sans-serif; font-weight: 600">SIPETA</h5>
               </div>
@@ -126,7 +135,7 @@
       <div class="container text-light">
         <div class="row text-center mb-4">
           <div class="col">
-            <h2 style="font-family: 'Rubik', sans-serif">Contact Me</h2>
+            <h2 style="font-family: 'Rubik', sans-serif" data-aos="fade-in">Contact Me</h2>
           </div>
         </div>
         <div class="row justify-content-center" style="font-family: 'Montserrat', sans-serif">
@@ -136,7 +145,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
 
-            <form name="yuwansamega.github.io-contact-me">
+            <form name="yuwansamega.github.io-contact-me" data-aos="zoom-in">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
                 <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
@@ -185,18 +194,18 @@
         </div>
         <div class="row justify-content-center text-center mb-4">
           <div class="col-1">
-            <a href="https://www.instagram.com/y_sams/">
-              <i class="bi bi-instagram"></i>
+            <a href="https://www.instagram.com/y_sams/" target="_blank">
+              <i class="bi bi-instagram icon_hov"></i>
             </a>
           </div>
           <div class="col-1">
-            <a href="https://twitter.com/yu_n0t_you">
-              <i class="bi bi-twitter"></i>
+            <a href="https://twitter.com/yu_n0t_you" target="_blank">
+              <i class="bi bi-twitter icon_hov"></i>
             </a>
           </div>
           <div class="col-1">
-            <a href="https://www.facebook.com/yuwansamega/">
-              <i class="bi bi-facebook"></i>
+            <a href="https://www.facebook.com/yuwansamega/" target="_blank">
+              <i class="bi bi-facebook icon_hov"></i>
             </a>
           </div>
         </div>
@@ -213,6 +222,24 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', { duration: 1, delay: 1, text: 'College Student | Developer' });
+      gsap.from('.display-4', { duration: 1, x: -50, opacity: 0 });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 1000,
+        easing: 'ease-in-out',
+        offset: 100,
+      });
+    </script>
 
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbwll13KF7OEY63d9-CZjdBblcnj4BDUMO7g9yJ4XNCkglwZERP8EflZfJzx34lf7mojZw/exec';
