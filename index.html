@@ -67,7 +67,7 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/yuwan5.png" alt="Yuwan Samega" width="150" class="rounded-circle img-thumbnail shadow-sm mb-4" />
+      <img src="img/yuwan5.png" alt="Yuwan Samega" width="150" class="rounded-circle img-thumbnail shadow-sm mb-4 img_anim" />
       <h1 class="display-4" style="font-family: 'Rubik', sans-serif; font-weight: 400; font-size: 3rem">Yuwan Samega</h1>
       <p class="lead" style="font-family: 'Montserrat', sans-serif"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -193,7 +193,7 @@
     <!-- Contact End -->
 
     <!-- Footer -->
-    <footer>
+    <footer style="background-color: #fafafa">
       <div class="container">
         <div class="row text-center mb-4">
           <div class="col">
@@ -222,9 +222,20 @@
             </a>
           </div>
         </div>
-        <div class="row text-center" style="margin-top: 100px; font-family: 'Montserrat', sans-serif">
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <hr style="height: 2px; border: none; background: black" />
+          </div>
+        </div>
+        <div class="row text-center" style="font-family: 'Montserrat', sans-serif">
           <div class="col">
-            <p>Copyright&copy 2021 Yuwan Samega. All rights reserved.</p>
+            <p>
+              Copyright&copy
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              Yuwan Samega. All rights reserved.
+            </p>
           </div>
         </div>
       </div>
@@ -240,8 +251,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
     <script>
       gsap.registerPlugin(TextPlugin);
-      gsap.to('.lead', { duration: 1, delay: 1, text: 'College Student | Developer' });
-      gsap.from('.display-4', { duration: 1, x: -50, opacity: 0 });
+      gsap.to('.lead', { duration: 1, delay: 2, text: 'College Student | Developer' });
+      gsap.from('.display-4', { duration: 1, delay: 1, x: -50, opacity: 0 });
+      gsap.from('.img_anim', { duration: 1, rotateY: 180 });
     </script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
